@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.matapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TanpaActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DaftarActivity" />
+        <activity
+            android:name=".ProfileAsli"
+            android:label="@string/title_activity_profile_asli"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.matapp.Main2Activity" />
+        </activity>
+        <activity
+            android:name=".LeaderboardAsli"
+            android:label="@string/title_activity_leaderboard_asli"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.matapp.Main2Activity" />
+        </activity>
+        <activity android:name=".tesKetajaman" />
+        <activity android:name=".tes_ketajaman2"
+            android:label="Tes Ketajaman">
+
+        </activity>
+    </application>
+
+</manifest>
