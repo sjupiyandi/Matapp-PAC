@@ -43,8 +43,11 @@
                 android:value="com.example.user.matapp.Main2Activity" />
         </activity>
         <activity android:name=".tesKetajaman" />
-        <activity android:name=".tes_ketajaman2"
-            android:label="Tes Ketajaman">
+        <activity
+            android:name=".tes_ketajaman2"
+            android:label="Tes Ketajaman"></activity>
+        <activity android:name=".Ozil"
+            android:label="Mesut Ozil">
 
         </activity>
     </application>
