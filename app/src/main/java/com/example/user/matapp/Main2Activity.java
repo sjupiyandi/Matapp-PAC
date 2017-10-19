@@ -93,6 +93,7 @@ public class Main2Activity extends AppCompatActivity
                 fragment = new Fragment3();
                 break;
             case R.id.item_pengaturan:
+                fragment = new Fragment4();
                 break;
         }
 

@@ -45,11 +45,11 @@
         <activity android:name=".tesKetajaman" />
         <activity
             android:name=".tes_ketajaman2"
-            android:label="Tes Ketajaman"></activity>
-        <activity android:name=".Ozil"
-            android:label="Mesut Ozil">
-
-        </activity>
+            android:label="Tes Ketajaman" />
+        <activity
+            android:name=".Ozil"
+            android:label="Mesut Ozil"></activity>
+        <activity android:name=".Fragment4"></activity>
     </application>
 
 </manifest>
